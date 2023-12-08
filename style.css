@@ -1,0 +1,30 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100svh;
+    text-align: center;
+}
+
+main {
+    max-width: 20rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#face {
+    position: relative;
+}
+
+#mustache {
+    position: absolute;
+}
